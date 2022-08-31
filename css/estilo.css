@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../imagens/fundo.png),
+				url(../imagens/ruido.png),
+				linear-gradient( to left,  #819FF7, #E0E0F8, #E3CEF6);
+				background-attachment: fixed;
+	font-size: 1em;
+	font-family:"Trebuchet MS";
+}
+#area-cabecalho {
+height: 755px;
+border-bottom: 10px solid white;
+
+}
+.area-menu{
+	margin: 5px;
+	background-color: white;
+	height: 50px;
+
+}
+
+/* Formatações menu */
+.area-menu a{
+	float: left;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+.area-menu a:hover{
+	color: #4C0B5F;
+	text-decoration: underline;
+}
+.area-menu a.active{
+	background: black;
+	color: white;
+}
+
+.area-menu a.right{
+	float: right;
+	background: #210B61;
+	color: white;
+}
+/* Formatações area logo e esquerda */
+#area-tanjiro{
+	float: right;
+	margin-right: 200px;
+
+}
+#lateral-esquerdo{
+	text-align: center;	
+}
+ h4{
+	text-shadow: 5px 5px 10px black;
+	color: white;
+	font-size: 150px;
+	padding-top: 150px;
+}
+h3{
+	color: #F7FE2E;
+	font-size: 30px;
+	text-shadow: 5px 5px 10px #000000;
+	margin-bottom: 50px;
+
+}
+.button1{
+	background: #220A29;
+	color: white;
+	border-radius: 80px;
+	border: 2px solid white;
+	width: 400px;
+	height: 90px;
+	margin-right: 10px;
+}
+.button2{
+	background: white;
+	color: white;
+	border-radius: 80px;
+	border: 2px solid #220A29;
+	width: 400px;
+	height: 90px;
+
+}
+.button1 a{
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+	
+}
+.button2 a{
+	color:  #220A29;
+	text-decoration: none;
+	font-size: 120%;
+	
+}
+
+.button1 a:hover{
+	text-decoration: underline;
+}
+.button2 a:hover{
+	text-decoration: underline;
+}
+/*Formatações mostruário*/
+.mostruario{
+	background: white;
+}
+.conteudo-principal{
+	width: 1100px;
+	height: 800px;
+	margin-left: 100px;
+	display: inline-block;
+	background: url(../imagens/poder.png) no-repeat ;
+	background-position: center top;
+	background-color: white;
+	
+}
+
+.conteudo1 {
+	margin: 5px 5px 5px 5px;
+	padding: 50px 20px 30px 20px;
+	display: block;
+	text-align: center;
+	transition: all 0.3s ease-out;
+	float: right;
+
+}
+.conteudo1:hover{
+	transform: translateY(-20px);
+}
+.conteudo1 h2{
+	padding-top: 20px;
+}
+.conteudo1 p{
+	color: red;
+	padding-bottom: 30px;
+	font-size: 1.2em;
+}
+
+.conteudo2 {
+	width: 600px;
+	height: 700px;
+	text-align: left;
+	justify-content: center;
+	margin: 30px 80px 0px 0px;
+	float: right;
+	
+}
+.conteudo2 h2{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+	color: #DF7401;
+	margin: 20px 0px 20px 0px;
+}
+.conteudo2 h1{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.conteudo2 p{
+	text-transform: uppercase;
+}
+.realce{
+	color: white;
+	font-size: 1.2em;
+	background: green;
+	box-shadow: black 10px 5px 5px;
+	
+}
+/* Formatações mural video game */
+#video-game{
+	height: 600px;
+	margin: 0 auto;
+
+}
+.conteudo3{
+	text-align: center;
+	float: left;
+	width: 1300px;
+	height: 700px;
+
+	
+	
+}
+.card{
+	float: left;
+	border-radius: 20px;
+	background: url(../imagens/teste.png),linear-gradient(#DA81F5, black);
+	width: 600px;
+	height: 300px;
+	margin: 50px 20px;
+	transition: all 0.3s ease-out;
+	
+
+}
+.direita-card{
+	margin: 20px -300px 60px 20px;
+	z-index: 2;
+	transition: all 0.3s ease-in;
+}
+.direita-card:hover{
+		transform: translate3d(42px, -62px, -135px);
+}
+.esquerda-card{
+	margin: 50px -30px 0px 0px;
+	position: relative;
+	z-index: 1;
+}
+.conteudo4{
+	width: 500px;
+	float: right;
+	margin-right: 100px;
+}
+.conteudo4 img{
+	margin-top: -100px;
+	text-align: left;
+
+}
+.button-card{
+	float: left;
+	margin-left: 40px;
+}
+
+.button-card button{
+	background: white;
+	border-radius: 30px;
+	border: 2px solid  #4C0B5F;
+	box-shadow: 5px 5px 10px;
+	width: 230px;
+	height: 70px;	
+	font-size: 150%;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	margin-top: 100px;
+
+}
+.button-card h2{
+	color: white;
+	font-size: 2em;
+	margin: 30px 0px 0px 0px;
+	border: 1px solid white;
+}
+.button-card button a{
+	text-decoration: none;
+	color: black;
+}
+.button-card button a:hover{
+	color: #BE81F7;
+
+}
+
+/* Formatações rodape */
+#rodape {
+	clear: both;
+	background: black;
+	height: 320px;
+
+}
+#rodape-esquerdo{
+	color: white;
+	float: left;
+}
+.descricao-rodape{
+	float: right;
+}
+.descricao-rodape ul{
+	list-style: none;
+	
+}
+.descricao-rodape ul li{
+	padding: 20px 50px 0px ;
+	color: white;
+}
+.descricao-rodape ul a{
+	text-decoration: none;
+}
+.descricao-rodape a li:hover{
+	color:#F5A9F2;
+
+}
+.descricao-rodape h3{
+	color: #CECEF6;
+	font-size: 130%;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	padding: 20px 50px 0px ;
+	margin: 20px 0px 20px 0px;
+}
+#rodape-direito{
+	color: white;
+	float: right;
+	margin: 100px 300px 0px 0px;
+
+}
+#rodape-direito img{
+	padding-left: 40px;
+	width: 50px;
+	border-radius:10px ;
+}
